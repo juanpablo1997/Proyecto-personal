@@ -1,0 +1,103 @@
+.card-perdonaje {
+    display: flex;
+    background-color: #24282F;
+    width: 550px;
+    color: #fff;
+    margin: 15px;
+}
+
+.card-perdonaje:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.nombre-personaje {
+    width: 100%;
+    font-weight: bold;
+    color: #FFF;
+    transition: color .3 ease;
+}
+
+.nombre-personaje:hover  {
+    color: #FF9800;
+}
+
+.card-cuerpo {
+    width: 100%;
+    padding: 20px;
+}
+
+.card-img {
+    width: 250px;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.card-texto {
+    margin: 0;
+}
+
+.card-perdonaje {
+    display: flex;
+}
+
+.card-perdonaje label {
+    font-size: 15px;
+    color: #9E9E9E;
+    font-weight: bolder;
+    font-size: 14px;
+} 
+
+.card-perdonaje .data {
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+.card-status {
+    display: flex;
+    align-items: center;
+}
+
+.data-species {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+.card-perdonaje .data {
+    font-weight: normal;
+}
+
+.simbolo-status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+
+.simbolo-status-dead {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.simbolo-status-unk {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.card-cuerpo .ver-mas {
+    margin-bottom: 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-cuerpo .ver-mas:hover {
+    background-color: transparent;
+    text-decoration: underline 1px #FF9800;
+    color: #FF9800;
+}

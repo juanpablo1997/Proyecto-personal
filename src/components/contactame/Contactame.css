@@ -1,0 +1,30 @@
+.parte-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pagina-contactame {
+    background-color: #EAEDEF;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.datos-contacto {
+    background-color: #EAEDEF;
+    font-size: 14px;
+} 
+
+.parte-contacto h2 {
+    color: #FF9800;
+}
+
+.parte-contacto h6 {
+    margin-bottom: 40px;
+    color: #050531;
+}
+
+.parte-contacto span {
+    font-weight: bolder;
+}

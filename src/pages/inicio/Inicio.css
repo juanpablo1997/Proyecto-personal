@@ -1,0 +1,415 @@
+/* 
+    Estilos para: 
+    Body de la página inicio
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+.cuerpo-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* 
+    Estilos para: 
+    Seccion información principal
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Contiene los estilos para el contenedor general */
+.seccion-informacion {
+    display: flex;
+    background-color: #050531;
+    color: #FFF;
+    user-select: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contiene los estilos para la imagen y la información */
+.contenedor-informacion-general {
+    display: flex;
+}
+
+/* Contiene los estilos para el contenedor de la imagen */
+.contenedor-imagen {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+/* Imagen principal */
+.seccion-informacion .contenedor-imagen .imagen {
+    width: 85%;
+}
+
+/* Contiene los estilos para la información principal */
+.contenedor-informacion {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 130px;
+    padding-left: 10px;
+}
+
+/* Título */
+.seccion-informacion .titulo-principal {
+    color: #FFF;
+    margin-bottom: 45px;
+}
+
+.seccion-informacion h1::after {
+    content: "";
+    width: 80px;
+    height: 8px;
+    background-color: #FF9800;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+/* Parrafo principal */
+.parrafo {
+    margin-bottom: 0;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+/* Contiene los estilos para el contenedor de los botones */
+.enlaces-informacion {
+    margin-bottom: 70px;
+}
+
+/* Estilos para los botones de la la información principal */
+.enlaces-info-boton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.enlaces-info-boton:hover {
+    cursor: pointer;
+}
+
+/* Estilos para el botón contáctame */
+.contactame {
+    margin-right: 10px;
+    background-color: #FF9800;
+    border:1px solid #FF9800;
+}
+
+/* Estilos para el botón mas información */
+.mas {
+    margin-left: 10px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+
+/* 
+    Estilos para: 
+    Sección de proposito del sitio
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Estilos para el contenedor general*/
+.seccion-proposito {
+    background-color: #EAEDEF;
+    padding: 50px;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 0px 1.2px 3.5px 1px  #505050;
+    margin: 110px 0 10px 0;
+}
+
+/* Estilos para título*/
+.titulo-proposito {
+    text-align: center;
+    font-size: 45px;
+    color: #050531;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-proposito::after {
+    content: "";
+    width: 80px;
+    height: 8px;
+    background-color: #FF9800;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Estilos para el parrafo del proposito */
+.proposito {
+    text-align: justify;
+    margin: 20px;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+/* 
+    Estilos para: 
+    Sección de información dos
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Estilos para el contenedor general */
+.seccion-informacion-dos {
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 2px;
+    display: flex;
+}
+
+/* Estilos para la parte de l información */
+.seccion-informacion-dos-info {
+    padding: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Título del argumento */
+.seccion-informacion-dos-info .tituloa-argumento {
+    font-size: 25px;
+    color: #050531;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+/* Estilos para el parrafo del argumento */
+.seccion-informacion-dos-info .parrafo-argumento {
+    text-align: justify;
+    margin-left: 50px;
+}
+
+/* Estilos para la parte de los enlacces */
+.enlace-mas-sobre-mi {
+    color: #FF9800;
+    margin: 0;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 1s;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.enlace-mas-sobre-mi:hover, .enlace-mas-sobre-mi:focus {
+    background-size: 100% 2px;
+}
+
+.enlace-mas-sobre-mi:visited {
+    color: #FF9800;
+    margin: 0;
+}
+
+/* Estilos para el contenedor de la imagen del argumento */
+.seccion-informacion-dos-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para la imagen de la familia */
+.imagen-familia {
+    width: 70%;
+}
+
+
+
+.tipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultas {
+    margin-top: 50px;
+}
+
+/* Columnas */
+
+.tipo {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #050531;
+    padding: 30px 15px;
+    transition: border-radius 1s linear;
+}
+
+.tipo:hover {
+    border: 1px solid #050531;
+    background-color: #050531;
+    cursor: pointer;
+    border-radius: 20px;
+    transform: scale(1.05);
+    color: #FFF;
+}
+
+.tipo h3 {
+   font-size: 30px;
+}
+
+.tipo .iconos {
+    width: 135px;
+}
+
+/* Ver más */
+
+.ver-mas {
+    margin-top: 20px;
+    color: #FF9800;
+    border: 1px solid #FF9800;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 16px;
+    transition: background-color .3s ease;
+}
+
+.ver-mas:hover {
+    background-color: #FF9800;
+    color: #FFF;
+}
+
+/* Seccion de contacto*/
+
+h3 {
+    width: 80%;
+}
+
+.seccion-contacto {
+    margin-top: 80px;
+}
+
+.informacion-contacto {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: normal;
+    color: #17202A;
+}
+
+.titulo-contacto {
+    text-align: center;
+    font-size: 45px;
+    color: #050531;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 120px;
+}
+
+.titulo-contacto::after {
+    content: "";
+    width: 80px;
+    height: 8px;
+    background-color: #FF9800;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.titulo-consultas {
+    text-align: center;
+    font-size: 45px;
+    color: #050531;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.titulo-consultas::after {
+    content: "";
+    width: 80px;
+    height: 8px;
+    background-color: #FF9800;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.seccion-contacto {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contacto {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.contacto p {
+    margin-left: 10px;
+}
+
+.informacion-contacto {
+    display: flex;
+}
+
+/* Sección video trailer */
+
+.seccion-video-informacion {
+    background-color: #050531;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px;
+}
+
+.video {
+    background-color: #050531;
+}
+
+.titulo-trailer {
+    text-align: center;
+    font-size: 45px;
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+.titulo-trailer::after {
+    content: "";
+    width: 80px;
+    height: 8px;
+    background-color: #FF9800;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.video {
+    background-color: #EAEDEF;
+    padding: 30px;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.contactame-i {
+    margin-top: 50px;
+    background-color: #EAEDEF;
+    width: 100%;
+    padding: 0px 100px 100px 100px;
+}

@@ -1,0 +1,185 @@
+.contenedor-mas-informacion-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+    Estilos para: 
+    Elemtos generales
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Estilos para los subtítulos */
+.sub-titulo-escritura,
+.sub-titulo-temas {
+    color: #050531;
+}
+
+/* Estilos para los parrafos */
+.parrafo-escritura,
+.parrafo1-temas,
+.parrafo2-temas {
+    text-align: justify;
+
+}
+
+/* 
+    Estilos para: 
+    Sección de proposito del sitio
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Contiene los estilos para el contenedor del título */
+.titulo-mas-informcion {
+    margin-top: 80px;
+}
+
+/* Título de más información */
+.titulo-mas-informcion .pre-titulo {
+    color: #050531;
+    margin: 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.titulo-mas-informcion h2 {
+    color: #050531;
+    margin-left: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.titulo-mas-informcion h2::after {
+    content: "";
+    width: 80px;
+    height: 8px;
+    background-color: #FF9800;
+    display: block;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+/* 
+    Estilos para: 
+    Sección de datos generales
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+.seccion-datos-generales {
+    background-color: #050531;
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.titulo-mas-informcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-titulo-datos-generales  {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-titulo-datos-generales::after  {
+    content: "";
+    width: 80px;
+    height: 8px;
+    background-color: #FF9800;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.contenedor-cuerpo {
+    display: flex;
+}
+
+.seccion-datos-generales label {
+    color: #FF9800;
+    font-weight: bold;
+}
+
+.seccion-datos-generales p {
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+.datos {
+    display: flex;
+/*     flex-direction: column;
+    padding: 20px;
+    margin-right: 80px; */
+}
+
+/* Contenedor de imagenes de los creadores */
+.creadores {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor-creadores {
+    display: flex;
+}
+
+.contenedor-creador {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-creador p {
+    text-align: center;
+}
+
+.creadores-img {
+    width: 145px;
+}
+
+.creadores p {
+    margin-top: 10px;
+}
+
+.i {
+    
+    padding: 20px;
+}
+
+/* 
+    Estilos para: 
+    Sección de escritura de la serie
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Estilos para el contenedor general */
+.seccion-escritura {
+    margin-top: 50px;
+    padding: 20px 60px 20px 60px;
+}
+
+/* 
+    Estilos para: 
+    Sección de temas de la serie
+    --------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Estilos para el contenedor general */
+.seccion-temas {
+    padding: 20px 60px 20px 60px;
+}

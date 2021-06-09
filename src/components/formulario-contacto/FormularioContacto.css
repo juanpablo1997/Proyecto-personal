@@ -1,0 +1,76 @@
+.componente-formulario {
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.input-formulario {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #050531;
+    color: #050531;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-formulario::placeholder {
+    color: #050531;
+    font-size: 14px;
+}
+
+.text-area {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: 1px solid #050531;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    padding: 5px;
+}
+
+.text-area::placeholder {
+    color: #050531;
+}
+
+.boton-formulario {
+    background-color: #FF9800;
+    padding: 5px 40px;
+    border: none;
+    color: #FFF;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.error {
+    background-color: #EC7063;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.exito {
+    background-color: #58D68D;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}

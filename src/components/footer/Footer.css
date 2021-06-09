@@ -1,0 +1,53 @@
+.footer {
+    margin-top: 50px;
+    background-color: #1B2631;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #9E9E9E;
+    padding: 80px;
+}
+
+.footer img {
+    width: 80px;
+    margin: 10px 0px;
+}
+
+.footer p {
+    margin: 10px 0px;
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.by {
+    font-weight: lighter;
+}
+
+.by span {
+    user-select: none;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: underline 1px #FF9800;
+    transition: color .3s ease;
+}
+
+.by span:hover {
+    color: #FF9800;
+    text-decoration: none;
+}
+
+.enlace {
+    font-weight: bold;
+}
+
+.enlace-netflix {
+    color: #FF9800;
+    font-weight: lighter;
+    text-decoration: underline 1px #FF9800;
+}
